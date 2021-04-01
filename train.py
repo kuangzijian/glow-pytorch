@@ -1,13 +1,8 @@
 from tqdm import tqdm
-import numpy as np
-from PIL import Image
 from math import log, sqrt, pi
-
 import argparse
-
 import torch
 from torch import nn, optim
-from torch.autograd import Variable, grad
 from torch.utils.data import DataLoader
 from torchvision import datasets, transforms, utils
 
